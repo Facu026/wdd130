@@ -1,0 +1,32 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+body {
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+}
+nav img  {
+    width: 100%;
+}
+footer {
+    background-color: grey;
+    margin-top: -6px;
+}
+footer img {
+    border-radius: 50%;
+    width: 13%;
+    border: 15px solid rgb(73, 71, 71);
+    margin-top: 50px;
+}
+#desk {
+    margin-left: 12em;
+}
+#graph {
+    margin-left: 12em;
+}
+#person {
+    margin-left: 12em;
+    
+}
