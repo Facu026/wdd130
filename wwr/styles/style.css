@@ -6,15 +6,22 @@ nav a {
     text-align: center;
     color: #EDE7E3;
     text-decoration: none;
+    font-family:'Roboto Slab', Helvetica, sans-serif;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    font-family: 'Caveat', serif, Arial;
 }
 .button-box {
     text-align: center;
+    font-family:'Roboto Slab', Helvetica, sans-serif;
 }
 main section {
     text-align: center;
+}
+main section img {
+    box-sizing: border-box;
 }
 #background {
     height: 725px;
@@ -22,6 +29,9 @@ main section {
 }
 body {
     background-color: #EDE7E3;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 header {
     background-color: #16697A;
@@ -35,6 +45,10 @@ nav a:hover {
     background-color: #16697A;
     color: #EDE7E3;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #000000;
@@ -43,16 +57,22 @@ nav a:hover {
 .msg {
     background-color: #16697A;
     color: #EDE7E3;
+    padding: 35px;
 }
 .msg h2 {
 color: #EDE7E3;
+font-family: 'Caveat', serif, Arial;
 }
 .msg p {
     color: #EDE7E3;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer{
     background-color: #16697A;
     color: #EDE7E3;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #EDE7E3;
@@ -65,9 +85,16 @@ footer a:hover {
 }
 footer p {
     font-size: 1.3em;
+    font-family:'Roboto Slab', Helvetica, sans-serif;
+}
+footer .social img {
+    padding-top: 15px;
 }
 .home-title {
     color: #D62828;
+    font-family: 'Caveat', serif, Arial;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #D62828;
@@ -77,7 +104,23 @@ h4 {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
+}
+.home-grid {
+    font-family:'Roboto Slab', Helvetica, sans-serif;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.river-card, .camping-card, .rapid-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #16697A;
 }
