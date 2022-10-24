@@ -1,0 +1,44 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    max-width: 3480px;
+    
+
+}
+.background-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: auto;
+margin-bottom: 0;
+
+}
+.first-grid {
+    position: relative;
+    width: 50em;
+    box-sizing: border-box;
+    margin-left: auto;
+}
+.second-grid {
+    position: relative;
+    background-color: grey;
+    width: 50em;
+    box-sizing: border-box;
+}
+h1 {
+    position: absolute;
+    box-sizing: border-box;
+    letter-spacing: 0.3em;
+    font-size: 9em;
+    width: 10em;
+    z-index: 100;
+    margin-top: -3.5em;
+   
+}
+h2 {
+padding-top: 80%;
+font-size: 5em;
+letter-spacing: 15px;
+color: #bd0026;
+}
