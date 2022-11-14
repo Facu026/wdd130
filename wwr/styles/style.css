@@ -179,7 +179,6 @@ main, section {
 footer{
         background-color: #16697A;
         padding: 25px 50px;
-        margin-top: 0;
         display: flex;
         justify-content: space-around;
         align-items: center;
